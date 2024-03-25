@@ -33,6 +33,6 @@ export PGPASSWORD=$psql_password
 
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 
-docker container stop jrvs-psql
+#docker container stop jrvs-psql
 
 exit $?
