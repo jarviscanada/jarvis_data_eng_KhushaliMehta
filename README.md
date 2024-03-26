@@ -87,7 +87,7 @@ This task is carried out with the command-line utility called crontab. It schedu
 ## Architecture
 Below is the linux cluster architecture diagram consisting three linux nodes, a host agent and a database.
 
-![Linux Cluster Administration diagram](assets/linux_arch.jpg)
+![Linux Cluster Administration diagram](assets/linux_arch1.jpg)
 
 ## Scripts
 
