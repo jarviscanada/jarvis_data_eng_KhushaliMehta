@@ -19,7 +19,7 @@
  
  ## Quick Start
 - Start a psql instance using psql_docker.sh
-```shell script
+```bash
 # create a container if not exists
 ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
 # start the container
@@ -28,7 +28,7 @@
 psql -h HOST_NAME -p 5432 -U USER_NAME
 ```
 - Create tables using ddl.sql
-```sql/
+```sql
 -- Create a host_info table
 CREATE TABLE PUBLIC.host_info 
   ( 
@@ -70,7 +70,7 @@ insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, 
               VALUES('$timestamp',$host_id, $memory_free, $cpu_idle, $cpu_kernel, $disk_io, $disk_available);"
 ```
 - Crontab setup
-```shell script
+```bash
 # edit crontab jobs
 bash> crontab -e
 # add this to crontab
@@ -87,28 +87,28 @@ This task is carried out with the command-line utility called crontab. It schedu
 ## Architecture
 Below is the linux cluster architecture diagram consisting three linux nodes, a host agent and a database.
 
-<img alt="Linux Cluster Administration diagram" src="C://Users//dell//Downloads//jarvis_data_eng_KhushaliMehta-develop//jarvis_data_eng_KhushaliMehta-develop//assets//linux_arch.jpg" width="400" height="450">
+![Linux Cluster Administration diagram](/assets/linux_arch.jpg)
 
 ## Scripts
 
 - psql_docker.sh - The script will perform creation task of the required container if not exists. It will start and stop the container according to the user needs.
-```shell script
+```bash
 # script usage
 ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
 
 ```
 - host_info.sh - This script will collect hardware specifications such as number of CPUs, Model name, Architecture and so on. It utilizes the host_info table to inject the data.
-```shell script
+```bash
 # script usage
 ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
 ```
 - host_usage.sh - It is used to get the usage information like disk I/O, available disk in MB, timestamp and much more. The script then constucts and executes INSERT statement to store data in host_usage table.
-```shell script
+```bash
 bash scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 ```
 - crontab - Cron is a linux utility which works like a job schedular. Host_usage.sh script is executed every minute by this utility, thus data gets added to the database within time-intervals. 
 Here the five (*) states that job will run each minute.
-```shell script
+```bash
 # to execute the job at a moment, use this in CLI
 bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
