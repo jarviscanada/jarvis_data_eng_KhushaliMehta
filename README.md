@@ -167,7 +167,7 @@ Test results of the DDL bash script are acurate. I understood that the id is aut
 When the bash scripts, Postgresql database and docker are completed with its setup and working fine, I decided to deploy the project on github as it's efficient and provides version control system. In order to automate the project, I used crontab utlity command which works as a job scheduler. With the help of this command, I collected host usage data each minute and stored it in a database. I have also directed the output of crontab job to a temporary log for reference. All in all, through git, docker container, postgresql DB and crontab I deployed and automated the project.
 
 
-##Improvements
+## Improvements
 
 - Integrate monitoring tools in a such  way that it can send alert for an unsual activity regarding host usage data
 - I want to handle environment variables in a robust way such that every time someone try to connect to psql instance it can working without any password issues.
