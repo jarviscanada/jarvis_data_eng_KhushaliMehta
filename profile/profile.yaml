@@ -1,0 +1,145 @@
+# Preferred name (Characters only)
+name: "Khushali Mehta"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_KhushaliMehta
+
+# Introduce yourself (80-120 words)
+# Suggestions: you should 
+# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
+# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
+# 3) mention what kind of role you are looking for
+# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
+summary: "Highly motivated graduate with a Master's in Computer Engineering from the University of Guelph, and over two years of 
+  experience in Python and MySQL. My academic and work history has honed my skills in backend development and database management, making 
+  me a strong candidate for roles in software development and data engineering. My passion lies in utilizing my technical skills to solve 
+  complex problems and improve system efficiencies, which I demonstrated during my tenure at Tata Consultancy Services by enhancing server
+  performance and reducing errors. I'm looking for a full-time BSA role where I can leverage my technical expertise in programming and my 
+  problem-solving abilities. My educational background, coupled with practical experience in software development and system optimization,
+  positions me as a suitable candidate for your team."
+skills:
+  # Please include 
+  #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
+  #     2) business tools (such as Excel, Viso, etc.)
+  Business Skills:
+    - Communication
+    - Collaboration
+    - Time management
+    - MS Office
+    - Google Workspace
+
+  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
+  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
+  Technical Skills:
+    - RDBMS/SQL
+    - Data Analytics
+    - Python
+    - MongoDB
+    - Microsoft SQL Server
+    - Docker
+    - GIT
+    - Linux
+
+# List of Jarvis projects
+# Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KhushaliMehta/tree/develop/linux_sql"
+    # Focus on BSA work instead of development work
+    # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
+    description: "The Linux Cluster Monitoring Project is aimed at supporting the Business Systems Analysis (BSA) work, focusing on the 
+      elicitation and analysis of requirements from stakeholders. In this context, the BSA plays a crucial role in drafting the Business 
+      Requirements Document (BRD) and System Requirements Document (SRD), ensuring that the project aligns with the stakeholders' needs. 
+      Through detailed requirement analysis, the project emphasizes the importance of RDBMS and SQL for efficient data management and 
+      modeling. The project's design allows network and system administrators to monitor hardware specifications and memory usage, using 
+      technologies like Docker, PostgreSQL, and shell scripts. In the BSA context, establishing Service Level Agreements (SLA) is vital to 
+      maintain the performance and reliability of the monitoring system, ensuring that the project meets the predefined standards and 
+      expectations of the stakeholders."
+
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    # Focus on BSA work instead of development work
+#    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+
+# List of personal or academic projects
+# Please focus on transferable skills, such as soft skills and data related skills
+highlighted_projects:
+    #project name
+  - name: "Traffic Sign Recognition using Deep Neural Networks"
+    #URL is optional
+    #git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed a traffic sign recognition system utilizing a Convolutional Neural Network (CNN), renowned for its effectiveness 
+      in image analysis. Selected a comprehensive dataset from the Kaggle website, comprising nearly 50,000 images of traffic signs for 
+      training and testing purposes. Upon completion of the model's training phase, it demonstrated a remarkable 96% accuracy rate, 
+      underscoring its capability to reliably identify traffic signs."
+
+  - name: "Language Detection using Machine Learning"
+    #git_url:
+    description: "Constructed a language detection system utilizing the Multinomial Naïve Bayes (MNB) methodology to accurately classify the 
+      language of any given text. This system was trained on a Kaggle dataset featuring 17-18 unique languages, each represented by at 
+      least 1000 lines of text. Through the application and evaluation of various algorithms, it was demonstrated that the MNB approach 
+      outperformed others, achieving the highest accuracy rate of 95%."
+
+# List of professional experience
+# Please focus on transferable skills, such as soft skills and data related skills
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Technical Consultant"
+    company: "Jarvis Consulting Group"
+    duration: "2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
+    description: "As a consultant, I work on multiple projects and focus on its implementation. I recently worked on the Linux Cluster Monitoring Project 
+      and developed a system to store and analyze hardware specifications of Linux nodes and its memory usage information in real time. 
+      I have documented the README file of the project and deployed the project on GitHub"
+
+  - title: "Assistant Systems Engineer Trainee"
+    company: "Tata Consultancy Services (TCS)"
+    duration: "2021-2022"
+    description: "Participated in the Microsoft Business Unit (MBU) and worked on the Pandora AMS project. Monitored system operations and client 
+      applications on Production Servers, identifying and mitigating potential issues, resulting in a 5% reduction in errors. Developed and
+       deployed automated server health checks and error monitoring systems, which led to a 20% decrease in downtime and enhanced client 
+       satisfaction through timely error notifications. Refined SQL queries for data extraction from the database, delivering valuable
+        insights to the business as required."
+
+#List of edcuation
+education: 
+  - school_name: "University of Guelph"
+    duration: "2022-2024"
+    degree: "Master of Engineering"
+    department: "Computer Engineering"
+    # optional
+    awards_achievements:
+#      - "Scholarship"
+#      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.38/4.0"
+  - school_name: "Gujarat Technological University (GTU)"
+    duration: "2017-2021"
+    degree: "Bachelor of Engineering"
+    department: "Information Technology"
+    awards_achievements:
+      - "GPA: 3.79/4.0"
+
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Microsoft Azure Fundamentals (AZ900) - Official certification offered by Microsoft"
+      - "Python for Everybody - A Python Specialization on Coursera"
+      - "MongoDB Basics (M001) - offered by MongoDB"
+
+#  - title: "Awards"
+#    bullets:
+#      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Lecturer, to freshman year students on topic Life SKills"
+      - "Joint Workshop Coordinator, in a college event"
+      - "Volunteer, an NGO named National Service Scheme (NSS)"
