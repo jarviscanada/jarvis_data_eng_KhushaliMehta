@@ -1,7 +1,10 @@
 # Introduction
-# SQL Queries
+## SQL Queries
 ###### Table Setup (DDL)
-###### Question 1: Show all memebrs 
+###### Question 1: Show all members
+```sql
+SELECT * FROM cd.members
+```
 
 
 ###### in progress ...
