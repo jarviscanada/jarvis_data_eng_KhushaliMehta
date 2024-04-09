@@ -13,8 +13,8 @@ summary: "Highly motivated graduate with a Master's in Computer Engineering from
   experience in Python and MySQL. My academic and work history has honed my skills in backend development and database management, making 
   me a strong candidate for roles in software development and data engineering. My passion lies in utilizing my technical skills to solve 
   complex problems and improve system efficiencies, which I demonstrated during my tenure at Tata Consultancy Services by enhancing server
-  performance and reducing errors. I'm looking for a full-time BSA role where I can leverage my technical expertise in programming and my 
-  problem-solving abilities. My educational background, coupled with practical experience in software development and system optimization,
+  performance and reducing errors. I'm open to work for a BSA / data engineer role where I can leverage my technical expertise in programming
+  and problem-solving abilities. My educational background, coupled with practical experience in software development and system optimization,
   positions me as a suitable candidate for your team."
 skills:
   # Please include 
@@ -34,7 +34,6 @@ skills:
     - Data Analytics
     - Python
     - MongoDB
-    - Microsoft SQL Server
     - Docker
     - GIT
     - Linux
@@ -81,7 +80,7 @@ highlighted_projects:
     #git_url:
     description: "Constructed a language detection system utilizing the Multinomial Naïve Bayes (MNB) methodology to accurately classify the 
       language of any given text. This system was trained on a Kaggle dataset featuring 17-18 unique languages, each represented by at 
-      least 1000 lines of text. Through the application and evaluation of various algorithms, it was demonstrated that the MNB approach 
+      least 1000 lines of text. Through the application and evaluation of various algorithms, it was highlighted that the MNB approach 
       outperformed others, achieving the highest accuracy rate of 95%."
 
 # List of professional experience
@@ -140,6 +139,7 @@ others:
 #      - "Winner"
   - title: "Activities/Hobbies"
     bullets:
+      - "Self-taught photographer, watch the glimpse here https://vs.co/kglfi1pz "
       - "Lecturer, to freshman year students on topic Life SKills"
       - "Joint Workshop Coordinator, in a college event"
       - "Volunteer, an NGO named National Service Scheme (NSS)"
