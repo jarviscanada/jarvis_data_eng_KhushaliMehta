@@ -1,12 +1,12 @@
 # Khushali Mehta . Jarvis Consulting
 
-Highly motivated graduate with a Master's in Computer Engineering from the University of Guelph, and over two years of experience in Python and MySQL. My academic and work history has honed my skills in backend development and database management, making me a strong candidate for roles in software development and data engineering. My passion lies in utilizing my technical skills to solve complex problems and improve system efficiencies, which I demonstrated during my tenure at Tata Consultancy Services by enhancing server performance and reducing errors. I'm looking for a full-time BSA role where I can leverage my technical expertise in programming and my problem-solving abilities. My educational background, coupled with practical experience in software development and system optimization, positions me as a suitable candidate for your team.
+Highly motivated graduate with a Master's in Computer Engineering from the University of Guelph, and over two years of experience in Python and MySQL. My academic and work history has honed my skills in backend development and database management, making me a strong candidate for roles in software development and data engineering. My passion lies in utilizing my technical skills to solve complex problems and improve system efficiencies, which I demonstrated during my tenure at Tata Consultancy Services by enhancing server performance and reducing errors. I'm open to work for a BSA / data engineer role where I can leverage my technical expertise in programming and problem-solving abilities. My educational background, coupled with practical experience in software development and system optimization, positions me as a suitable candidate for your team.
 
 ## Skills
 
 **Business Skills:** Communication, Collaboration, Time management, MS Office, Google Workspace
 
-**Technical Skills:** RDBMS/SQL, Data Analytics, Python, MongoDB, Microsoft SQL Server, Docker, GIT, Linux
+**Technical Skills:** RDBMS/SQL, Data Analytics, Python, MongoDB, Docker, GIT, Linux
 
 ## Jarvis Projects
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KhushaliMe
 ## Highlighted Projects
 **Traffic Sign Recognition using Deep Neural Networks**: Developed a traffic sign recognition system utilizing a Convolutional Neural Network (CNN), renowned for its effectiveness in image analysis. Selected a comprehensive dataset from the Kaggle website, comprising nearly 50,000 images of traffic signs for training and testing purposes. Upon completion of the model's training phase, it demonstrated a remarkable 96% accuracy rate, underscoring its capability to reliably identify traffic signs.
 
-**Language Detection using Machine Learning**: Constructed a language detection system utilizing the Multinomial Naïve Bayes (MNB) methodology to accurately classify the language of any given text. This system was trained on a Kaggle dataset featuring 17-18 unique languages, each represented by at least 1000 lines of text. Through the application and evaluation of various algorithms, it was demonstrated that the MNB approach outperformed others, achieving the highest accuracy rate of 95%.
+**Language Detection using Machine Learning**: Constructed a language detection system utilizing the Multinomial Naïve Bayes (MNB) methodology to accurately classify the language of any given text. This system was trained on a Kaggle dataset featuring 17-18 unique languages, each represented by at least 1000 lines of text. Through the application and evaluation of various algorithms, it was highlighted that the MNB approach outperformed others, achieving the highest accuracy rate of 95%.
 
 
 ## Professional Experiences
@@ -41,6 +41,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KhushaliMe
 - Microsoft Azure Fundamentals (AZ900) - Official certification offered by Microsoft
 - Python for Everybody - A Python Specialization on Coursera
 - MongoDB Basics (M001) - offered by MongoDB
+- Self-taught photographer, watch the glimpse here https://vs.co/kglfi1pz 
 - Lecturer, to freshman year students on topic Life SKills
 - Joint Workshop Coordinator, in a college event
 - Volunteer, an NGO named National Service Scheme (NSS)
